@@ -1,4 +1,3 @@
-import React from "react";
 import HelloWorld from "./components/HelloWorld"; // パスが正しいことを確認
 
 function App() {
