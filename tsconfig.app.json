@@ -6,7 +6,8 @@
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-
+    "esModuleInterop": true,
+    "isolatedModules": true, // <-- この行を追加します
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
